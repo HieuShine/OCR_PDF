@@ -13,8 +13,14 @@
 
            var result = ocr.Read(input)
    //1  vài tham số thường dùng OCR
+   /n
            result.Text //Fulltext
+   /n
            result.Pages //Danh sách từng trang PDF
+   /n
            result.Languages // Danh sách ngôn ngữ OCR nhận dạng
+   /n
            result.Barcodes // nếu có mã vạch  (List<OcrResult.Barcode>)
+/n
+   //Yêu cầu thư viện SixLabors.ImageSharp >= 3.1.8
             
